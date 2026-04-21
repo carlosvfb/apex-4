@@ -22,7 +22,7 @@ function App() {
               decoding="async"
               loading="eager"
             />
-            APEX IV
+            APEX III
           </a>
           <div className="hidden lg:flex gap-8 items-center">
             <a
@@ -1427,11 +1427,11 @@ function App() {
                 loading="lazy"
               />
               <div className="text-lg font-bold text-[#c3f5ff] font-headline uppercase tracking-tighter">
-                PROJETO APEX IV
+                PROJETO APEX III
               </div>
             </div>
             <p className="font-body text-xs uppercase tracking-widest text-slate-500 leading-relaxed max-w-md">
-              © 2026 Projeto APEX IV — Guia sobre Indústria 4.0, CPS e IIoT.
+              © 2026 Projeto APEX III — Guia sobre Indústria 4.0, CPS e IIoT.
               <br />
               Conteúdo educacional para fins acadêmicos.
             </p>
