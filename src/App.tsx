@@ -12,9 +12,16 @@ function App() {
       <nav className="fixed top-0 inset-x-0 z-50 bg-[#10141a]/75 backdrop-blur-md border-b border-white/5">
         <div className="mx-auto max-w-[80rem] flex items-center justify-between px-6 md:px-8 py-4">
           <a
-            className="text-2xl font-black text-[#c3f5ff] tracking-tighter font-headline uppercase"
+            className="flex items-center gap-3 text-2xl font-black text-[#c3f5ff] tracking-tighter font-headline uppercase"
             href="#"
           >
+            <img
+              src="/logo.webp"
+              alt="Logo APEX IV"
+              className="h-8 w-8 rounded-sm"
+              decoding="async"
+              loading="eager"
+            />
             APEX IV
           </a>
           <div className="hidden lg:flex gap-8 items-center">
@@ -1239,6 +1246,141 @@ function App() {
           </div>
         </section>
 
+        <section className="py-24 md:py-32 bg-surface" id="referencias">
+          <div className="mx-auto max-w-[80rem] px-6 md:px-8">
+            <div className="mb-16 md:mb-20">
+              <h2 className="text-3xl md:text-4xl font-bold tracking-tighter mb-4 text-primary">
+                Referências e Colaboradores
+              </h2>
+              <div className="h-1 w-24 bg-primary"></div>
+              <p className="mt-6 max-w-3xl text-on-surface-variant leading-relaxed">
+                A lista abaixo reúne materiais clássicos e normas que ajudaram a
+                orientar o conteúdo. Use como base para aprofundar temas,
+                comparar abordagens e embasar trabalhos acadêmicos.
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 md:gap-8">
+              <div className="lg:col-span-4 rounded-sm border border-outline-variant/20 bg-surface-container-high p-7 md:p-9">
+                <h3 className="text-xl font-black tracking-tight uppercase mb-6">
+                  Colaboradores
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+                  <div className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    <p className="font-bold tracking-tight">
+                      Carlos Vítor Faria Barboza
+                    </p>
+                  </div>
+                  <div className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    <p className="font-bold tracking-tight">Helton do Nascimento</p>
+                  </div>
+                  <div className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    <p className="font-bold tracking-tight">
+                      Renato Fernandes de Mattos
+                    </p>
+                  </div>
+                  <div className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    <p className="font-bold tracking-tight">
+                      Matheus Pereira Dos Reis
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="lg:col-span-8 rounded-sm border border-outline-variant/20 bg-surface-container-low p-7 md:p-9">
+                <h3 className="text-xl font-black tracking-tight uppercase mb-6">
+                  Bibliografia
+                </h3>
+                <ol className="space-y-4 text-sm text-on-surface-variant leading-relaxed list-decimal pl-5">
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    KAGERMANN, Henning; WAHLSTER, Wolfgang; HELBIG, Johannes.
+                    <span className="italic"> Recommendations for implementing the strategic initiative INDUSTRIE 4.0</span>.
+                    Frankfurt: acatech, 2013.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    LASI, Heiner; FETTKE, Peter; KEMPER, Hans-Georg; FELD,
+                    Thomas; HOFFMANN, Michael.
+                    <span className="italic"> Industry 4.0</span>.
+                    <span className="italic"> Business &amp; Information Systems Engineering</span>, v. 6, n. 4, p. 239–242, 2014.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    HERMANN, Mario; PENTEK, Tobias; OTTO, Boris.
+                    <span className="italic"> Design Principles for Industrie 4.0 Scenarios</span>.
+                    In: <span className="italic">Proceedings of the 49th Hawaii International Conference on System Sciences (HICSS)</span>. 2016.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    NIST.
+                    <span className="italic"> Guide to Industrial Control Systems (ICS) Security</span> (SP 800-82 Rev. 3).
+                    Gaithersburg: National Institute of Standards and Technology, 2024.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    IEC.
+                    <span className="italic"> IEC 62443 — Security for industrial automation and control systems</span>.
+                    Geneva: International Electrotechnical Commission, 2018–2024.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    ISA.
+                    <span className="italic"> ANSI/ISA-95 — Enterprise-Control System Integration</span>.
+                    Research Triangle Park: International Society of Automation, 2010–2013.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    OPC FOUNDATION.
+                    <span className="italic"> OPC UA Specifications</span>.
+                    Disponível em:{' '}
+                    <a
+                      className="text-primary hover:underline"
+                      href="https://opcfoundation.org/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://opcfoundation.org/
+                    </a>
+                    . Acesso em: 21 abr. 2026.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    OASIS.
+                    <span className="italic"> MQTT Version 5.0</span>.
+                    Disponível em:{' '}
+                    <a
+                      className="text-primary hover:underline"
+                      href="https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html
+                    </a>
+                    . Acesso em: 21 abr. 2026.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    ISO.
+                    <span className="italic"> ISO 23247 — Digital Twin Framework for Manufacturing</span>.
+                    Geneva: International Organization for Standardization, 2021–2022.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    IIC.
+                    <span className="italic"> Industrial Internet Reference Architecture (IIRA)</span>.
+                    Industrial Internet Consortium, 2017.
+                  </li>
+                  <li className="rounded-sm border border-outline-variant/20 bg-surface-container-lowest p-6">
+                    RAMI 4.0.
+                    <span className="italic"> Reference Architectural Model Industrie 4.0</span>.
+                    Disponível em:{' '}
+                    <a
+                      className="text-primary hover:underline"
+                      href="https://www.plattform-i40.de/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      https://www.plattform-i40.de/
+                    </a>
+                    . Acesso em: 21 abr. 2026.
+                  </li>
+                </ol>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="py-28 md:py-40 bg-surface-container-lowest">
           <div className="mx-auto max-w-[80rem] px-6 md:px-8">
             <div className="relative p-10 md:p-16 lg:p-24 overflow-hidden">
@@ -1276,8 +1418,17 @@ function App() {
       <footer className="bg-[#0a0e14] w-full py-16 mt-10 border-t border-white/5">
         <div className="max-w-[80rem] mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 text-center md:text-left">
           <div>
-            <div className="text-lg font-bold text-[#c3f5ff] mb-4 font-headline uppercase tracking-tighter">
-              PROJETO APEX IV
+            <div className="flex items-center justify-center md:justify-start gap-3 mb-4">
+              <img
+                src="/logo.webp"
+                alt="Logo APEX IV"
+                className="h-10 w-10 rounded-sm"
+                decoding="async"
+                loading="lazy"
+              />
+              <div className="text-lg font-bold text-[#c3f5ff] font-headline uppercase tracking-tighter">
+                PROJETO APEX IV
+              </div>
             </div>
             <p className="font-body text-xs uppercase tracking-widest text-slate-500 leading-relaxed max-w-md">
               © 2026 Projeto APEX IV — Guia sobre Indústria 4.0, CPS e IIoT.
